@@ -6,7 +6,12 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <!--No Title Bar-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
 
+
+        출처: https://pizzaplanet.tistory.com/entry/안드로이드-타이틀바-제거하기 [pizzaplanet]
     </style>
 
 </resources>

@@ -18,6 +18,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+//        Drawable alpha = ((ImageView)findViewById(R.id.imageView_han)).getBackground();
+//        alpha.setAlpha(50);
+
+
         imageView_ro = findViewById(R.id.imageView_ro);
         imageView_jang = findViewById(R.id.imageView_jang);
         imageView_han = findViewById(R.id.imageView_han);

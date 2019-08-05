@@ -16,12 +16,14 @@
     <TextView
         android:layout_alignLeft="@+id/imageView_mem3"
         android:layout_marginRight="20dp"
+        android:textColor="@color/colorDark"
+        android:textSize="18dp"
+        android:background="@drawable/temp3"
         android:layout_above="@+id/btn_mem3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView_mem3"
-        android:textSize="20dp"
-        android:text="성별 : 남성\n취미:\n"
+        android:text="이름 : 정재덕\n생년월일 : 95.10.11\n취미 : 스포츠 경기 보기\n입대일 : 2016.03.29\n전역일 : 2017.12.28\n출신 사단 : 1사단 포병대대\n군 특기 : 통신병\n"
        />
     <Button
         android:id="@+id/btn_mem3"

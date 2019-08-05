@@ -16,11 +16,14 @@
     <TextView
         android:layout_alignLeft="@+id/imageView_mem2"
         android:layout_marginRight="20dp"
+        android:textColor="@color/colorDark"
+        android:background="@drawable/temp2"
+        android:textSize="18dp"
         android:layout_above="@+id/btn_mem2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView_mem2"
-        android:text="라라라라라라라라라라라라라"/>
+        android:text="이름 : 노영빈\n생년월일 : 94.06.24\n취미 : 운동, 멍때리기\n입대일 : 2015.04.21\n전역일 : 2017.01.20\n출신 사단 : 11사단 기계화 보병사단\n군 특기 : 보병\n"/>
 
     <Button
         android:id="@+id/btn_mem2"

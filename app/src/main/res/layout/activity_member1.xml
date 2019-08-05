@@ -15,12 +15,15 @@
 
     <TextView
         android:layout_alignLeft="@+id/imageView_mem1"
+        android:textColor="@color/colorDark"
+        android:textSize="18dp"
         android:layout_marginRight="20dp"
         android:layout_above="@+id/btn_mem1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/temp1"
         android:layout_below="@+id/imageView_mem1"
-        android:text="성별 : 남성\n나이 : 25\n직업 : 대학생\n취미:\n\tMaker Project\n\tVedio Game\n\t클래식기타\n\t독서"
+        android:text="이름 : 한찬영\n생년월일 : 95.08.12\n취미 : Make Project, Viedeo Game, 클래식 기타, 독서\n입대일 : 2017.04.20\n전역일 : 2019.03.28\n출신 사단 : 강주시 노인복지관\n군 특기 : 어르신케어\n"
        />
 
     <Button
@@ -31,6 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"/>
+
 
 
 
