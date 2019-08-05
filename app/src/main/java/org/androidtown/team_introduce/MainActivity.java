@@ -1,6 +1,7 @@
 package org.androidtown.team_introduce;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -18,9 +19,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        Drawable alpha = ((ImageView)findViewById(R.id.imageView_han)).getBackground();
-//        alpha.setAlpha(50);
-
 
         imageView_ro = findViewById(R.id.imageView_ro);
         imageView_jang = findViewById(R.id.imageView_jang);
@@ -37,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
         imageView_ro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),Member3.class);
                 MainActivity.this.startActivity(intent);
-
             }
         });
 
@@ -62,11 +60,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btn_git.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/ybib/Team_introduce"));
+                startActivity(myIntent);
+            }
+        });
 
 
         imageView_han.setImageResource(R.drawable.han);
         imageView_jang.setImageResource(R.drawable.jang);
         imageView_ro.setImageResource(R.drawable.ro);
-
     }
 }
